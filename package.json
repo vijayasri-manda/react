@@ -28,12 +28,6 @@
     ]
     
   },
-  "netlify": {
-  "build": {
-    "command": "npm run build",
-    "publish": "build"
-  }
-},
 
   "browserslist": {
     "production": [
