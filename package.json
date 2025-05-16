@@ -26,7 +26,15 @@
       "react-app",
       "react-app/jest"
     ]
+    
   },
+  "netlify": {
+  "build": {
+    "command": "npm run build",
+    "publish": "build"
+  }
+},
+
   "browserslist": {
     "production": [
       ">0.2%",
